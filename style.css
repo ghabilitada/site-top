@@ -1,0 +1,89 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+body{
+    background-color: #ffeac8;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 400;
+}
+header {
+    background-color: #a30505;
+    color: #fff;
+    padding: 1px 1px;
+    text-align: center;
+}
+menu {
+    background-color:black;
+    color: #fff;
+    padding: 5px;
+   margin: 0px ;
+    text-align: center;
+}
+menu> a{
+    color: #fff;
+    text-decoration: none;
+    margin: 0 30px;
+    font-size: 20px;
+
+}
+ a:hover {
+    color: #faa61a;
+    border: #ffeac8;
+ }
+
+h1 {
+    color: #ffffff;
+    text-align: center;
+}
+
+h2{
+    color: #ffffff;
+    text-align: center;
+}
+main{
+    background-color: #a30505;
+    margin: 20px;
+    color: #000000;
+    padding: 20px 20px;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 2px 2px 20px 1px#0000005e;
+}
+
+.promocao {
+    background-image: url('imagens/pizzas.png'); 
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    color: white; 
+    border-radius: 20px;
+    margin: 20px;
+    color: #ffffff;
+    padding: 20px 20px;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 2px 2px 20px 1px#0000005e;
+}
+main{
+    filter: none;   
+}
+.text-promo{
+    background-color: #0000005e;
+    padding: 20px;
+    border-radius: 20px;
+    color: white;
+    font-size: 20px;
+}1
+footer {
+    background-color: #df1414;
+    color: #fff;
+    padding: 20px 20px;
+    text-align: center;
+}
+
+.whatsapp{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 50px;
+    z-index: 1000; /* Certifique-se de que a imagem fique acima de outros elementos */
+}
